@@ -1,0 +1,18 @@
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+vicmd_symbol = "[❮](purple)"
+
+[directory]
+style = "cyan"
+
+[git_branch]
+symbol = " "
+style = "yellow"
+
+[git_status]
+style = "red"
+
+[nodejs]
+symbol = "⬢ "
+style = "green"

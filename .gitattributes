@@ -1,0 +1,13 @@
+# Force Unix LF for Linux configs, shell scripts, and all Lua files
+linux/** text eol=lf
+*.sh text eol=lf
+*.lua text eol=lf
+
+# Force Windows CRLF only for Windows scripts
+windows/**/*.ps1 text eol=crlf
+windows/**/*.bat text eol=crlf
+windows/**/*.cmd text eol=crlf
+
+# Mark binary assets explicitly so Git never touches them
+*.ttf binary
+*.png binary

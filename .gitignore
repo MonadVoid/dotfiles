@@ -1,0 +1,19 @@
+# Zsh completion cache
+.zcompdump*
+
+# Runtime logs & widget state
+*.log
+windows/.config/yasb/notes.json
+
+# Shell histories & sensitive files
+*history
+*.env
+*.pem
+*.key
+
+# Editor & OS temporary files
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db

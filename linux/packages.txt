@@ -1,0 +1,32 @@
+# Core shell & CLI utilities
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+git
+tmux
+sudo
+base-devel
+curl
+wget
+unzip
+ripgrep
+fd
+fzf
+fastfetch
+
+# Neovim (NvChad + Treesitter + Mason dependencies)
+neovim
+nodejs
+npm
+python
+python-pip
+
+# Intel Iris Xe Hardware Acceleration (Mesa + Intel Compute Runtime)
+mesa
+mesa-utils
+vulkan-dzn
+libva-mesa-driver
+libva-utils
+intel-compute-runtime
+ocl-icd
+clinfo
