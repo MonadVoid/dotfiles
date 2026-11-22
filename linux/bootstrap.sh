@@ -4,7 +4,7 @@ set -euo pipefail
 read -rp "Enter new Linux username [iamvoid]: " USERNAME
 USERNAME="${USERNAME:-iamvoid}"
 
-DOTFILES_REPO="https://github.com"
+DOTFILES_REPO="https://github.com/MonadVoid/dotfiles.git"
 
 echo "==> Initializing pacman keyring and updating system..."
 pacman-key --init
